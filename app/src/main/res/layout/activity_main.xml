@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btGame5"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:textSize="40sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame7"
+        android:layout_width="114dp"
+        android:textSize="40sp"
+        android:layout_height="108dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame9"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="260dp"
+        android:textSize="40sp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame4"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="20dp"
+        android:textSize="40sp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame1"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#454545"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame2"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:textSize="40sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame3"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="260dp"
+        android:textSize="40sp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame6"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="324dp"
+        android:textSize="40sp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGame8"
+        android:layout_width="114dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="140dp"
+        android:textSize="40sp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#454545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="153dp"
+        android:text="Turn: X"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="X:"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="O:"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btNew"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#505050"
+        android:text="New"
+        android:onClick="ClickNew"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="216dp"
+        android:backgroundTint="#505050"
+        android:text="Back"
+        android:onClick="ClickBack"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
